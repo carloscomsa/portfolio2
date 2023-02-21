@@ -1,163 +1,173 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
-    <title>Portfolio website</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>My PersonalWebsite</title>
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
+
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 
+
 </head>
-
-
 <body>
 
 
-    <!-- Header and Logo -->
+ <!-- This is TOP Section (Banner + Header)-->
 
-<div class="hero">
-    
-    <nav>
-        <h2 class="logo">Portfo<span>lio</span></h2>
-        <ul>
+<div id="topSection">
+
+    <header class="header">
+
+        <nav>   
+
+            <div class="logo">Comsa Carlos Portfolio</div>
+           <ul>
             <li><a href="/">Home</a></li>
-            <li><a href="#about">About me</a></li>
-            <li><a href="#projects">Best Projects</a></li>
-            <li><a href="#allprojects">All Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">My Projects</a></li>
             <li><a href="#contact">Contact</a></li>
-        </ul>
-        <a href="#" class="btn">Subscribe</a>
-    </nav>
+           </ul> 
 
-<div class="content">
-    <h4>Hello, my name is</h4>
-    <h1>Comsa <span>Carlos</span></h1>
-    <h3>I'am a Web Developer.</h3>
+        </nav>
+
+    </header>
+
+</div>
+
+
+<!-- This is MID section (Photo of Me, some text about me)-->
+
+<div class="midSection">
+
+    <div class="text">
+
+          <h1>I'm a Front-End Developer</h1> <br> <br>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Cursus
+        vitae congue mauris rhoncus aenean vel elit scelerisque. Nibh nisl condimentum id venenatis a condimentum vitae sapien.</p>
+        
+        <a href="myCv.pdf" download="Cv">
+            <button type="button" id="downloadCv">Download Cv</button>
+        </a> 
+
     </div>
+
+
+    <img src="https://cdn-icons-png.flaticon.com/512/1160/1160922.png?w=740&t=st=1675280444~exp=1675281044~hmac=e404524c5f095f033706efb4d5129f6655b9e4c0d233f3799487c98bc0f98580" alt="photoOfMe">
+
+
 </div>
 
 
 
-<!--About section start-->
+<!-- This is Skills section (All my Skills)-->
 
-<section class="about" id="about">
-    <div class="main">
-        <img src="https://i.ibb.co/M1SMXNS/Untitled.jpg"
-         alt="photoOfMe" class="photoOfMe">
-        <div class="about-text">
-            <h2><u>About Me</u></h2>
-            <h5>Web Developer <span>Front End</span></h5>
-            <p>Ready to give everything to always climb🏔️ .<span>Passionate about the</span> IT field, I am currently doing <span>an accredited course in web</span> development
-                for the front <span>end 👨‍💻. Competent in JS, C#. Recently</span> i created 2 android<span> games</span>🕹️</p>
-                <a class="button" href="#contact">Let's talk.</a>
-                
-        </div>
-    </div>
-</section>
+<div class="skills" id="skills">
+
+    <h3>My Skills</h3>
+  
+    <h2>My Experties</h2>
+  
+    <img class="htmlLogo" src="https://i.ibb.co/28R8QZw/html.png" alt="Html Logo">
+    <img class="cssLogo" src="https://i.ibb.co/2K7GT7f/css-logo.png" alt="CSS Logo">
+    <img class="javascriptLogo" src="https://i.ibb.co/3YMFdJV/Javascript-shield.png" alt="Javascript Logo">
+  
+   <h4 class="htmlText">Hyper Text Markup Language (HTML)</h4>
+   <p class="phtmlText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+   
+   <div class="bar1">
+
+    <div class="w3-light-grey w3-round-large">
+        <div class="w3-container w3-green w3-round-large" style="width:90%">90%</div>
+      </div><br>
+
+   </div>
 
 
 
-<!--Service -->
+   <h4 class="cssText">Cascading Style Sheets(CSS)</h4>
+   <p class="pcssText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
 
-<section id="projects">
+   <div class="bar2">
 
-<div class="service">
-    <div class="title">
-        <h2>My Projects</h2>
-    </div>
-    <div class="box">
-        <div class="card">
-            <i class="fas fa-bars"></i>
-            <h5>Project 1</h5>
-            <div class="pra">
-                <p>Every website should be build with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+    <div class="w3-light-grey w3-round-large">
+        <div class="w3-container w3-green w3-round-large" style="width:50%">50%</div>
+      </div><br>
+      
+   </div>
 
-                <p style="text-align: center;">
-                    <a class="button" href="#">Read More</a>
-                </p>
-            </div>
-        </div>
 
-        <div class="card">
-            <i class="fa-regular fa-user"></i>
-            <h5>Project 2</h5>
-            <div class="pra">
-                <p>Every website should be build with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
 
-                <p style="text-align: center;">
-                    <a class="button" href="#">Read More</a>
-                </p>
-            </div>
-            </div>
-
-            <div class="card">
-                <i class="fa-regular fa-bell"></i>
-                <h5>Project 3</h5>
-                <div class="pra">
-                    <p>Every website should be build with two primary goals: Firstly, it needs to work across all devices. Secondly, it needs to be fast as possible.</p>
+   
+   <h4 class="javascriptText">JavaScript(JS)</h4>
+   <p class="pjavascriptText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
     
-                    <p style="text-align: center;">
-                        <a class="button" href="#">Read More</a>
-                    </p>
-                </div>
+
+   <div class="bar3">
+
+    <div class="w3-light-grey w3-round-large">
+        <div class="w3-container w3-green w3-round-large" style="width:25%">25%</div>
+      </div><br>
+      
+   </div>
+
+
+
+  </div>
+  
+
+
+
+
+
+<!--Projects-->
+
+<div class="projects" id="projects">
+
+    <h3>My Projects<h3>
+        
+
+
+    <div class="myProjects">
+        
+        <a href="#link"><img class="project1" src="https://i.ibb.co/KW6rmkx/Screenshot-1.png" alt="project1"></a>
+        <a href="#link"><img class="project2" src="https://i.ibb.co/y6Jx7Bb/Screenshot-2.png" alt="project2"></a>
+        <a href="#link"><img class="project3" src="https://i.ibb.co/TrZ1DRq/Screenshot-3.png" alt="project3"></a>
+        <a href="#link"><img class="project4" src="https://i.ibb.co/QCp0bhJ/Screenshot-4.png" alt="project4"></a>
+        <a href="#link"><img class="project5" src="https://i.ibb.co/y6Jx7Bb/Screenshot-2.png" alt="project5"></a>
+        <a href="#link"><img class="project6" src="https://i.ibb.co/y6Jx7Bb/Screenshot-2.png" alt="project6"></a>
+
     </div>
- </div>
-</div>
-</section>
 
-
-
-<!--Contact me-->
-
-<section id="allprojects">
-
-<div class="contact-me">
-    <p> View all my projects.</p>
-    <input type="button" value="viewAllProjects" id="button-two" onclick="window.open('www.google.com')" 
 </div>
 
-</section>
-
-
-<!--Footer Start-->
 
 <section id="contact">
 
 
-<footer>
-    <p>Comsa <span>Carlos</span></p>
-    <p> while(alive) {<br> code(); <br> eat(); <br> sleep(); <br> repeat(); <br>}</p>
-    <br>
-    <h2>&#8595; Contact &#8595;</h2>
-    <div class="social">
-        <a href="https://www.facebook.com/Comsa.Lauu" target="_blank"><i class="fab fa-facebook-f"></i></a>
-        <a href="https://www.instagram.com/carloscomsa/" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.linkedin.com/in/comsa-carlos-510742253/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
-    </div>
-    <p class="end">&#169;	CopyRight by Comsa Carlos</p>
-</footer>
-
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
+    <footer>
+        <p>Comsa <span>Carlos</span></p>
+        <p> while(alive) {<br> code(); <br> eat(); <br> sleep(); <br> repeat(); <br>}</p>
+        <br>
+        <h2>&#8595; Contact &#8595;</h2>
+        <div class="social">
+            <a href="https://www.facebook.com/Comsa.Lauu" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://www.instagram.com/carloscomsa/" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/comsa-carlos-510742253/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+        <p class="end">&#169;	CopyRight by Comsa Carlos</p>
+    </footer>
+    
+    </section>
 
 
 
@@ -178,5 +188,20 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="script.js"></script>
 
 </html>
